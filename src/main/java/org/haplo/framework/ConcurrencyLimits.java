@@ -14,7 +14,7 @@ import java.util.concurrent.Semaphore;
  */
 public class ConcurrencyLimits {
     // How many requests can an application have in-flight at once?
-    public static final int APPLICATION_CONCURRENT_REQUESTS_PERMITS = 8;
+    public static final int APPLICATION_CONCURRENT_REQUESTS_PERMITS = 16;
 
     // When another request is in progress, how many times should the handler wait to see if it can be the only request processed at once?
     public static final int APPLICATION_CONCURRENT_REQUESTS_MAX_SPINS = 4;
